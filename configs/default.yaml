@@ -1,0 +1,15 @@
+detector:
+  window_size: 15
+  variance_threshold: 0.001
+  min_speaking_frames: 9
+  mar_range: [0.05, 0.8]
+
+mediapipe:
+  max_num_faces: 1
+  min_detection_confidence: 0.5
+  min_tracking_confidence: 0.5
+
+video:
+  camera_id: 0
+  width: 640
+  height: 480
